@@ -28,3 +28,5 @@ spec:
               cpu: "500m"
             limits:
               memory: "2Gi"
+      nodeSelector:
+        app: easytrade

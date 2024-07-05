@@ -20,6 +20,8 @@ spec:
             requests:
               cpu: 50m
               memory: 50Mi
+      nodeSelector:
+        app: easytrade
 ---
 apiVersion: v1
 kind: Service

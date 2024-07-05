@@ -117,3 +117,5 @@ spec:
             - configMapRef:
                 name: aggregatorservice-5
           resources: *default_res
+      nodeSelector:
+        app: easytrade
